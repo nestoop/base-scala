@@ -13,7 +13,7 @@ object ForSample {
     val arr = List(1, 2, 3, 4, 5, 6, 7, "88")
 
     for (j <- arr) {
-      println(j)
+      println(j.getClass)
     }
 
     val list = List(3, 4, 5, 6, 7, 8, 9);
